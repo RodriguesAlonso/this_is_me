@@ -1,2 +1,2 @@
 # this_is_me
-This repository is a personal website project intended to present myself as a junior software developer.
+This repository is a personal website project intended to present myself as a junior software developer. Here, you will find information about me, my personal projects, experiences, and technical skills. The website was built using modern technologies such as HTML, CSS, JavaScript, Python, Flask, and Bootstrap. New technologies may be added over time as I progress as a software developer. Feel free to explore and learn more about me and my work. Welcome!
