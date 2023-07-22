@@ -1,1 +1,11 @@
-<h1>Hi João Alonso</h1>
+{% extends 'base.html'%}
+
+{% block content %}
+    <div class="banner">
+        <img src="{{url_for('static', filename = './img/banner.png')}}" alt="Banner">
+        <p class="line01"
+        >This is</p>
+        <h1 class="line02"><strong>João Paulo</strong></h1>
+        <h2 class="line03">Junior Software Developer</h2>
+    </div>
+{% endblock content %}

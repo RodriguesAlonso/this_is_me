@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'TuskerGroteskMedium';
+    src: url("../fonts/TuskerGrotetsk.ttf");
+}
+
+@font-face {
+    font-family: 'TuskerGroteskSemibold';
+    src: url("../fonts/TuskerGrotetsk.otf");
+}
+
+nav {
+    background-color: #382E59;
+    font-family: "TuskerGroteskMedium", sans-serif;
+    letter-spacing: 2px;
+    font-size: 2vw;          
+}
+nav a{
+    font-size: 5vh;
+    color: #D9CEAD;    
+    margin: 0px 10px;
+}
+
+nav a:hover{
+    color: #190E40;
+}
+.banner {
+    color: white;
+    position: relative;
+}
+
+.banner img {
+    width: 100vw;
+}
+
+.banner p {
+    position: absolute;
+    top: 5vw;
+    left: 5vw;
+    font-family: "TuskerGroteskMedium", sans-serif;
+    font-size: 10vw;
+    font-weight: bold;
+    letter-spacing: 3px;
+
+}
+
+.banner h1 {
+    position: absolute;
+    top: 17vw;
+    left: 10vw;
+    font-family: "TuskerGroteskMedium", sans-serif;
+    font-size: 13vw;
+    letter-spacing: 5px;
+}
+
+.banner h2 {
+    position: absolute;
+    top: 31vw;
+    left: 3vw;
+    font-family: "TuskerGroteskMedium", sans-serif;
+    font-size: 4vw;
+    letter-spacing: 3px;
+}
+
+.line01 {
+    animation: 1s line01;
+}
+
+@keyframes line01 {
+    0% {
+        opacity: 0;
+        transform: translateX(-500%) scale(6);
+    }
+
+    50% {
+        opacity: 0.2;
+        transform: translateX(5%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%) scale(1);
+    }
+}
+
+.line02 {
+    animation:1.5s line02;
+}
+
+@keyframes line02 {
+    0% {
+        opacity: 0;
+        transform: translateX(1500%) scale(6);
+    }
+
+    50% {
+        opacity: 0;
+        transform: translateX(1500%) scale(6);
+    }
+
+    90% {
+        opacity: 0.5;
+        transform: translateX(-1500%) scale(70);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%) scale(1);
+    }
+}
+.line03 {
+    animation: 5.5s line03;
+}
+
+@keyframes line03 {
+    0% {
+        opacity: 0;
+        transform: translateX(-500%);
+    }
+
+    25% {
+        opacity: 0;
+        transform: translateX(-500%);
+    }
+
+    50% {
+        opacity: 0.2;
+        transform: translateX(5%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+.menu {
+    animation: 4s menu;
+}
+
+@keyframes menu {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
